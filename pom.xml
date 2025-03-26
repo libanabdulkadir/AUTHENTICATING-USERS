@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>Task9</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <!-- Material UI Swing for modern UI design -->
+        <dependency>
+            <groupId>io.github.vincenzopalazzo</groupId>
+            <artifactId>material-ui-swing</artifactId>
+            <version>1.1.2</version>
+        </dependency>
+
+        <!-- JTattoo Look and Feel library -->
+        <!--        <dependency>-->
+        <!--            <groupId>com.jtattoo</groupId>-->
+        <!--            <artifactId>jtatoo</artifactId>-->
+        <!--            <version>1.6.5</version>-->
+        <!--        </dependency>-->
+
+        <!-- FlatLaf (Modern Look and Feel) -->
+        <dependency>
+            <groupId>com.formdev</groupId>
+            <artifactId>flatlaf</artifactId>
+            <version>2.0</version>
+        </dependency>
+
+        <!-- MySQL Connector/J (JDBC driver for MySQL) -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.29</version>
+        </dependency>
+
+        <!-- JClander (for Calendar UI) -->
+        <dependency>
+            <groupId>com.toedter</groupId>
+            <artifactId>jcalendar</artifactId>
+            <version>1.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.13.0-M2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
